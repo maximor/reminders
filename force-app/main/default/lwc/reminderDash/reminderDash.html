@@ -1,0 +1,116 @@
+<template>
+    <div class="slds-grid slds-wrap">
+        <!-- Today Card -->
+        <div class="slds-col slds-size_3-of-6 slds-medium-size_6-of-12 slds-large-size_3-of-12 card-container">
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container" title="account">
+                                <lightning-icon icon-name="utility:dayview" alternative-text="Approved" title="Today Tasks"></lightning-icon>
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            
+                        </div>
+                        <div class="slds-no-flex">
+                            <strong><span class="slds-text-heading_large">{todayTasks}</span></strong>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner">
+                    <h2 class="slds-card__header-title">
+                        <strong><span>Today</span></strong>
+                    </h2>
+                </div>
+                <footer class="slds-card__footer">
+                    <a class="slds-card__footer-action" href="#">View All</a>
+                </footer>
+            </article>
+        </div>
+        <!-- Scheduled Card -->
+        <div class="slds-col slds-size_3-of-6 slds-medium-size_6-of-12 slds-large-size_3-of-12 card-container">
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container" title="account">
+                                <lightning-icon icon-name="utility:event" alternative-text="Approved" title="Today Tasks"></lightning-icon>
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            
+                        </div>
+                        <div class="slds-no-flex">
+                            <strong><span class="slds-text-heading_large">{scheduledTasks}</span></strong>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner">
+                    <h2 class="slds-card__header-title">
+                        <strong><span>Scheduled</span></strong>
+                    </h2>
+                </div>
+                <footer class="slds-card__footer">
+                    <a class="slds-card__footer-action" href="#">View All</a>
+                </footer>
+            </article>
+        </div>
+        <!-- All Card -->
+        <div class="slds-col slds-size_3-of-6 slds-medium-size_6-of-12 slds-large-size_3-of-12 card-container">
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container" title="account">
+                                <lightning-icon icon-name="utility:archive" alternative-text="Approved" title="Today Tasks"></lightning-icon>
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            
+                        </div>
+                        <div class="slds-no-flex">
+                            <strong><span class="slds-text-heading_large">{allTasks}</span></strong>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner">
+                    <h2 class="slds-card__header-title">
+                        <strong><span>All</span></strong>
+                    </h2>
+                </div>
+                <footer class="slds-card__footer">
+                    <a class="slds-card__footer-action" href="#">View All</a>
+                </footer>
+            </article>
+        </div>
+        <!-- Upcomming Card -->
+        <div class="slds-col slds-size_3-of-6 slds-medium-size_6-of-12 slds-large-size_3-of-12 card-container">
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container" title="account">
+                                <lightning-icon icon-name="utility:event_ext" alternative-text="Approved" title="Today Tasks"></lightning-icon>
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            
+                        </div>
+                        <div class="slds-no-flex">
+                            <strong><span class="slds-text-heading_large">{upcomingTasks}</span></strong>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner">
+                    <h2 class="slds-card__header-title">
+                        <strong><span>Upcoming</span></strong>
+                    </h2>
+                </div>
+                <footer class="slds-card__footer">
+                    <a class="slds-card__footer-action" href="#">View All</a>
+                </footer>
+            </article>
+        </div>
+    </div>
+</template>
